@@ -22,7 +22,7 @@ This project is a very interesting webapplication project. It combined frontend,
 Simple Steps you need to make for using this website
 * Download the source code
 * Open a php server in your computer like xampp or anything else and open this foler within this server inside the htdocs since it is a php project
-* Download the cnn model for image classification
+* Download the cnn model for image classification and put the model inside AI_python/flower folder path
 
     * Model Path: [https://drive.google.com/file/d/17rhFbq5I_pSXdsL8WtELnpnC-sWmYUUm/view](https://drive.google.com/file/d/17rhFbq5I_pSXdsL8WtELnpnC-sWmYUUm/view)
 * open AI_python/flower folder path in cmd run the server for the fastapi api for cnn alogrithm:
