@@ -1,0 +1,160 @@
+
+
+#footerPage{
+    /* background-color: var(--pri-color); */
+    background: rgb(2,0,36); 
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(51,165,158,1) 0%, rgba(12,156,210,1) 0%, rgba(8,196,129,1) 93%);
+    width: 100%;
+    height: 70vh;
+}
+
+
+.footerone{
+    /* background-color: green; */
+    width: 100%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footsecone{
+    /* background-color: red; */
+    height: 90%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    color: white;
+}
+
+.footsecone p{
+    padding: 20px;
+}
+
+.social{
+    /* background-color: blueviolet; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sologo{
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sologo i{
+    font-size: 1.3rem;
+}
+
+.footsectwo{
+    /* background-color: red; */
+    height: 90%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.footsectwo h2{
+    color: white;
+}
+
+.footsectwo p{
+    color: white;
+}
+
+.footsectwo a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.footsectwo a:hover{
+    color: gray;
+}
+
+.footertwo{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footertwo p{
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+
+@media (max-width:600px){
+    #footerPage{
+        /* background-color: red; */
+        height: 80vh;
+    }
+    .footerone{
+        /* background-color: green; */
+        font-size: 0.3rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        /* flex-direction: column; */
+        height: 85%;
+    }
+    #porto{
+        font-size: 0.6rem;
+    }
+    .footsecone{
+        /* background-color: goldenrod; */
+        width: 40%;
+        height:90%;
+    }
+    .footsecone h1{
+        font-size: 1.4rem;
+    }
+    .footsecone p{
+        font-size: 0.7rem;
+    }
+
+    .sologo{
+        /* background-color: cadetblue; */
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+    }
+    .sologo i{
+        font-size: 0.9rem;
+    }
+
+    .footsectwo{
+        /* background-color: blue; */
+        width: 20%;
+        height: 90%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        font-size: 0.3rem;
+    }
+    .footsectwo h2{
+        font-size: 0.9rem;
+    }
+    .footertwo{
+        /* background-color: chartreuse; */
+        height: 15%;
+    }
+}

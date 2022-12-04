@@ -1,0 +1,60 @@
+
+
+
+
+
+#upload_video_hand{
+    display: none;
+}
+
+
+#label_hand{
+    background-color: var(--pri-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    width: 60%;
+    height: 15%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#label_hand:hover{
+    background-color: var(--bri-color);
+}
+
+
+
+#Submit_hand{
+    background-color: var(--pri-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    width: 60%;
+    height: 15%;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+#Submit_hand:hover{
+    background-color: var(--bri-color);
+}
+
+
+@media (max-width:600px){
+    #Submit_hand{
+        width: 35%;
+        height: 50%;
+    }
+    
+    #label_hand{
+        width: 35%;
+        height: 50%;
+    }
+}

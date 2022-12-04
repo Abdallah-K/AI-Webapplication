@@ -1,0 +1,61 @@
+
+
+
+
+
+#upload_video_mesh{
+    display: none;
+}
+
+
+#label_mesh{
+    background-color: var(--pri-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    width: 60%;
+    height: 15%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#label_mesh:hover{
+    background-color: var(--bri-color);
+}
+
+
+
+#Submit_mesh{
+    background-color: var(--pri-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    width: 60%;
+    height: 15%;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+#Submit_mesh:hover{
+    background-color: var(--bri-color);
+}
+
+
+
+@media (max-width:600px){
+    #Submit_mesh{
+        width: 35%;
+        height: 50%;
+    }
+
+    #label_mesh{
+        width: 35%;
+        height: 50%;
+    }
+}

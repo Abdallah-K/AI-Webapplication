@@ -1,0 +1,192 @@
+
+
+#Cnnhome{
+    width: 100%;
+    height: 70vh;
+}
+
+.cnnheader{
+    background-color: var(--back-color);
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20rem;
+}
+
+
+#CNNintro{
+    /* background-color: red; */
+    width: 100%;
+    height: 55vh;
+}
+
+.cnntitle{
+    /* background-color: green; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid var(--pri-color);
+}
+
+.cnntitle h1{
+    margin-left: 20px;
+}
+
+.cnndata{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 80%;
+    padding: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.ModelTitle{
+    /* background-color: red; */
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 2px solid var(--pri-color);
+}
+
+.ModelTitle h1{
+    margin-left: 20px;
+}
+
+#Convolutionlayers{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 55vh;
+}
+
+.convotitle{
+    /* background-color: blue; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid var(--pri-color);
+}
+
+.convotitle h1{
+    margin-left: 20px;
+}
+
+.convobody{
+    /* background-color: brown; */
+    width: 100%;
+    height: 80%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 20px;
+}
+
+#pooling{
+    /* background-color: red; */
+    width: 100%;
+    height: 40vh;
+}
+
+.pooltitle{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid var(--pri-color);
+}
+
+.pooltitle h1{
+    margin-left: 20px;
+}
+
+.poolbody{
+    /* background-color: blue; */
+    width: 100%;
+    height: 80%;
+    font-weight: bold;
+    padding: 20px;
+    letter-spacing: 1px;
+}
+
+#Full{
+    /* background-color: red; */
+    width: 100%;
+    height: 35vh;
+}
+
+.fulltitle{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid var(--pri-color);
+}
+
+.fulltitle h1{
+    margin-left: 20px;
+}
+
+.fullbody{
+    /* background-color: blueviolet; */
+    width: 100%;
+    height: 80%;
+    padding: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+#actpage{
+    /* background-color: red; */
+    width: 100%;
+    height: 40vh;
+}
+
+.acttitle{
+    /* background-color:yellow; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid var(--pri-color);
+}
+
+.acttitle h1{
+    margin-left: 20px;
+}
+
+.actbody{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 80%;
+    padding: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+@media (max-width:600px){
+
+    .cnndata{
+        font-size: 0.51rem;
+    }
+
+    .convobody{
+        font-size: 0.52rem;
+    }
+ 
+    .poolbody{
+        font-size: 0.53rem;
+    }
+    .fullbody{
+        font-size: 0.51rem;
+    }
+    .actbody{
+        font-size: 0.5rem;
+    }
+}

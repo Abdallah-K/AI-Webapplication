@@ -1,0 +1,135 @@
+
+
+
+#FlowerPage{
+    background-color: var(--back-color);
+    width: 100%;
+    height: 100vh;
+}
+
+.flower_title{
+    /* background-color: green; */
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid var(--pri-color);
+    font-size: 1.5rem;
+}
+
+.flower_data{
+    /* background-color: blueviolet; */
+    width: 100%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.flower_box{
+    /* background-color: aqua; */
+    width: 95%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#photoform{
+    /* background-color: red; */
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+#photoform label{
+    background-color: var(--pri-color);
+    color: white;
+    width: 20%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#photoform label:hover{
+    background-color: var(--bri-color);
+}
+
+#check{
+    background-color: var(--pri-color);
+    border: none;
+    outline: none;
+    color: white;
+    width: 15%;
+    height: 35%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#check:hover{
+    background-color: var(--bri-color);
+}
+
+.formdata{
+    /* background-color: blue; */
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.formdata img{
+    width: 50%;
+    height: 65%;
+    border-radius: 5px;
+    /* background-color: red; */
+}
+
+.formdata h1{
+    background-color: var(--pri-color);
+    color: white;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    border-radius: 5px;
+}
+
+
+@media (max-width:600px){
+    .flower_title{
+        font-size: 1.1rem;
+    }
+
+    #photoform label{
+        width: 60%;
+        height: 45%;
+    }
+    #check{
+        width: 60%;
+    }
+
+    #image{
+        width: 80%;
+    }
+
+    #formh1{
+        width: 60%;
+    }
+}

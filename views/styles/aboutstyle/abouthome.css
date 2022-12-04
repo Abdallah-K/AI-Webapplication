@@ -1,0 +1,24 @@
+
+
+
+#AboutHome{
+    width: 100%;
+    height: 70vh;
+}
+
+.abouthomedata{
+    background-color: var(--back-color);
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+
+.abouthomedata h1{
+    color: var(--pri-color);
+    filter: drop-shadow(1px 1px 1px var(--pri-color));
+
+}

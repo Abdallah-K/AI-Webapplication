@@ -1,0 +1,104 @@
+
+
+
+#CardPage{
+    background-color: var(--back-color);
+    width: 100%;
+    height: 100vh;
+}
+
+
+.cardtitle{
+    /* background-color: green; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardtitle h1{
+    font-size: 3rem;
+    color: var(--pri-color);
+    filter: drop-shadow(1px 1px 1px var(--pri-color));
+}
+
+.cardbody{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.carddata{
+    height: 45%;
+    width: 32%;
+    margin: 5px;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    /* transition: 0.3s all ease-out; */
+}
+
+.carddata:hover{
+    /* background-color: var(--pri-color);
+    color: white; */
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(51,165,158,1) 0%, rgba(12,156,210,1) 0%, rgba(8,196,129,1) 93%);
+}
+
+.carddata:hover #cardlogo{
+    color: white;
+}
+
+.carddata i{
+    font-size: 3rem;
+    color: var(--pri-color);
+    filter: drop-shadow(1px 1px 1px var(--pri-color));
+}
+
+.carddata p{
+    opacity: 0.8;
+}
+
+
+@media (max-width:600px){
+    .cardtitle{
+        /* background-color: brown; */
+        height: 10%;
+    }
+    .cardtitle h1{
+        font-size: 1.3rem;
+    }
+    .cardbody{
+        /* background-color: chocolate; */
+        min-height: 90%;
+        
+    }
+    .carddata{
+        /* background-color: yellow; */
+        width: 45%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 5px;
+    }
+    .carddata i{
+        font-size: 2rem;
+    }
+
+    .carddata h2{
+        font-size: 0.7rem;
+    }
+
+    .carddata p{
+        font-size: 0.4rem;
+    };
+}

@@ -1,0 +1,62 @@
+
+
+
+
+
+#upload_video_face{
+    display: none;
+}
+
+
+#label_face{
+    background-color: var(--pri-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    width: 60%;
+    height: 15%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#label_face:hover{
+    background-color: var(--bri-color);
+}
+
+
+
+#Submit_face{
+    background-color: var(--pri-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    width: 60%;
+    height: 15%;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+#Submit_face:hover{
+    background-color: var(--bri-color);
+}
+
+
+
+@media (max-width:600px){
+    #Submit_face{
+        width: 35%;
+        height: 50%;
+    }
+    
+    #label_face{
+        width: 35%;
+        height: 50%;
+    }
+}
+
