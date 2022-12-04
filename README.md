@@ -10,6 +10,8 @@ This project is a very interesting webapplication project. It combined frontend,
 ---
 
 ![](readmeimg/info.PNG)
+
+---
 * The frontend is userinterface friendly made so it make it easy to navigate between diiferent pages and sections
 * Information for the AI technololy like opencv and cnn is listed in the website.For making the user have more direct info about the tech he is using and have all the simple data in one place.
 # API Usage
