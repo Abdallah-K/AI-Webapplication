@@ -26,15 +26,17 @@
     $(function(){
   
         $("#Submit_hand").click(function(){
+            var global_path = "http://localhost/AI-Webapplication-main/views/video/facedetection"
+            var api = 'http://localhost/AI-Webapplication-main/API/uploadfacedetection.php'
             var file_data = $('#upload_video_hand').prop('files')[0];   
             var file_data_name = $('#upload_video_hand').prop('files')[0].name;   
             var form_data = new FormData(); 
             var port = "2";
             form_data.append('file', file_data);
-            var path_video = `http://localhost/Websites/AI/views/video/facedetection/${file_data_name}`;
+            var path_video = `${global_path}/${file_data_name}`;
             window.myvar = path_video;
             $.ajax({
-                url: 'http://localhost/Websites/AI/API/uploadfacedetection.php', 
+                url: api, 
                 cache: false,
                 contentType: false,
                 processData: false,
